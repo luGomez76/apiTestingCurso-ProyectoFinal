@@ -1,0 +1,4 @@
+email,password,nombre,tipo_usuario_id,estado
+random,12345678,Usuario aleatorio,1,1
+karate@gmail.com,12345678,Carlos Zambrano QA,1,1
+emailInvalid,12345678,Carlos Zambrano QA,1,1

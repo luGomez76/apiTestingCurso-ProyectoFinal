@@ -1,0 +1,4 @@
+codigo,nombre,medida,marca,categoria,precio,stock,estado,descripcion
+random,Refrigerador,UND,Generico,Repuestos,3500.00,48,3,Negra 2 puertas
+,,,,,,,,
+codNew,nombreUpd,UND,Generico,Repuestos,3500.00,48,3,descUpd

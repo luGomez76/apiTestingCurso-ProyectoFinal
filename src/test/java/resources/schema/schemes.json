@@ -1,0 +1,71 @@
+{
+  "registerAuth" : {
+    "nombre":"#string",
+    "email":"#string",
+    "password":"#string",
+    "estado":"#string",
+    "tipo_usuario_id":"#string",
+    "updated_at":"#string",
+    "created_at":"#string",
+    "id":"#number"
+  },
+
+  "loginAuth" : {
+    "email":"#string",
+    "password":"#string"
+  },
+
+  "logResponseAuth" : {
+    "nombre":"#string",
+    "email":"#string",
+    "password":"#string",
+    "estado":"#number",
+    "tipo_usuario_id":"#number",
+    "updated_at":"#string",
+    "created_at":"#string",
+    "id":"#number"
+  },
+
+  "newProduct" : {
+    "codigo":"#string",
+    "nombre":"#string",
+    "medida":"#string",
+    "marca_id":"#number",
+    "categoria_id":"#number",
+    "precio":"#string",
+    "stock":"#string",
+    "estado":"#string",
+    "descripcion":"#string",
+    "updated_at":"#string",
+    "created_at":"#string",
+    "id":"#number"
+  },
+
+  "updateProduct" : {
+    "id":"#number",
+    "codigo":"#string",
+    "nombre":"#string",
+    "medida":"#string",
+    "marca_id":"#number",
+    "categoria_id":"#number",
+    "precio":"#string",
+    "stock":"#number",
+    "estado":"#number",
+    "descripcion":"#string",
+    "created_at":"#string",
+    "updated_at":"#string"
+  },
+
+  "getProductId" : {
+    "id": "#number",
+    "codigo": "#string",
+    "nombre": "#string",
+    "medida": "#string",
+    "marca": "#string",
+    "categoria": "#string",
+    "precio": "#string",
+    "stock": "#number",
+    "estado": "#number",
+    "descripcion": "#string"
+  }
+}
